@@ -1,31 +1,50 @@
 # Enterprise AI Governance Architecture
 
-A public companion repository for an enterprise AI governance portfolio project.
+A companion repository for my Enterprise AI Governance portfolio project.
 
-This project demonstrates how AI requests can be evaluated through a governance layer before accessing enterprise data or producing AI-generated responses.
+---
 
-## Core Concepts
+## Architecture
 
-- Enterprise AI governance
-- Authorization before data access
-- Prompt injection protection
-- Policy-based AI decisions
-- PostgreSQL-backed finance data
-- Governed AI response patterns
+![Architecture](screenshots/architecture-overview.png)
 
-## Governance Flow
+---
 
-```text
-User Prompt
-    ↓
-Identity / Role Context
-    ↓
-Josh's AI Governance
-    ↓
-Policy Evaluation
-    ↓
-Allow / Deny / Block
-    ↓
-Enterprise Data Access
-    ↓
-AI Response
+## Demo Scenarios
+
+### Authorization Denied
+
+![Denied](screenshots/demo-denied.png)
+
+---
+
+### Authorization Approved
+
+![Approved](screenshots/demo-approved.png)
+
+---
+
+### Prompt Injection Detected
+
+![Blocked](screenshots/demo-blocked.png)
+
+---
+
+## Technology
+
+- Node.js
+- Express
+- PostgreSQL
+- GraphQL
+- Docker
+- REST APIs
+- AI Governance
+- Prompt Injection Protection
+
+---
+
+## Related Resources
+
+- YouTube walkthrough *(coming soon)*
+- RodriguezGlobalTech.com
+- LinkedIn: www.linkedin.com/in/josh-rodriguez-mba-027a2665
