@@ -2,6 +2,8 @@
 
 A companion repository for my Enterprise AI Governance portfolio project.
 
+This repository demonstrates a practical enterprise AI governance pattern that evaluates user requests before sensitive business data is accessed or AI-generated responses are returned. It showcases how authorization, policy enforcement, prompt injection detection, and governed AI workflows can be integrated into a modern enterprise architecture using Node.js, PostgreSQL, GraphQL, Docker, and AI technologies.
+
 ---
 
 ## Architecture
