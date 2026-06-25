@@ -48,5 +48,5 @@ This repository demonstrates a practical enterprise AI governance pattern that e
 ## Related Resources
 
 - YouTube walkthrough: https://youtu.be/sB1df8jt6Uk 
-- RodriguezGlobalTech.com
 - LinkedIn: www.linkedin.com/in/josh-rodriguez-mba-027a2665
+- www.rodriguezglobaltech.com 
